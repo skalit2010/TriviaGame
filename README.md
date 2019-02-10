@@ -1,4 +1,6 @@
 # TriviaGame
+https://skalit2010.github.io/TriviaGame/
+
 An Exo themed trivia game that uses JavaScript timing events for each question and jQuery to dynamically generate HTML.
 
 ### How It Works
