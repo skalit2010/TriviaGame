@@ -4,58 +4,63 @@
   }
   
   body {
-    min-height: 100vh;
-    background-image: url("../images/exobg4.jpg");
+    min-height: 90vh;
+    background-image: url("../images/bgBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
   }
   
   header {
-    padding: 70px 0px;
+    padding: 30px 0px 20px 0px;
   }
   
   .logo {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
   
   .initialText {
       font-size: 20px;
-      color: white;
+      color: #DCE1E9;
       letter-spacing: 1.5px;
   }
   
   .startButton {
-    margin-top: 175px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .mainArea {
+    padding-bottom: 20px;
+  }
   
   .timerText {
     font-size: 20px;
-    color: white;
+    color: #DCE1E9;
   }
   
   .questionText {
     font-size: 30px;
-    color: white;
+    color: #DCE1E9;
   }
   
   .correctText, .wrongText, .timeOutText, .finishedText {
       font-size: 50px;
-      color: white;
+      color: #DCE1E9;
   }
   
   .summaryCorrect, .summaryWrong, .summaryUnanswered {
     font-size: 20px;
-    color: white;
+    color: #DCE1E9;
   }
   
   #timer {
-      color: #f4f746;
+      color: #D4AFB9;
       font-size: 40px;
       font-weight: bold;
   }
@@ -72,6 +77,7 @@
     border-radius: 4px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 10px;
   }
   
   .imgWrong, .imgCorrect {
